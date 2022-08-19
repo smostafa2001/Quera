@@ -1,0 +1,6 @@
+a,b=input(),input()
+ra=int(a[::-1])
+rb=int(b[::-1])
+if ra>rb:print(b+' < '+a)
+elif ra<rb:print(a+' < '+b)
+else:print(a+' = '+b)

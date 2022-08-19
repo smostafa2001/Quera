@@ -1,0 +1,1 @@
+[print('s'+chr(i))for i in range(97,97+int(input()))]

@@ -1,0 +1,1 @@
+print('saal:{:02d}\nmaah:{:02d}'.format(*divmod(int(input()),100)))
